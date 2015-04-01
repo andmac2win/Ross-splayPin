@@ -13,17 +13,10 @@
 		1A08138C1AAE8507000253E6 /* OpenNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A08138B1AAE8507000253E6 /* OpenNowTests.swift */; };
 		1A0813961AAE91EF000253E6 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0813951AAE91EF000253E6 /* InfoViewController.swift */; };
 		1A1A54F01ABCB55F00DDE152 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A54EF1ABCB55F00DDE152 /* CustomButton.swift */; };
-		1A1F55791ABA1DF200990700 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F55781ABA1DF200990700 /* InterfaceController.swift */; };
-		1A1F557B1ABA1DF200990700 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F557A1ABA1DF200990700 /* NotificationController.swift */; };
-		1A1F557D1ABA1DF200990700 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F557C1ABA1DF200990700 /* GlanceController.swift */; };
-		1A1F557F1ABA1DF200990700 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1F557E1ABA1DF200990700 /* Images.xcassets */; };
-		1A1F55831ABA1DF300990700 /* OpenNow WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 1A1F55821ABA1DF300990700 /* OpenNow WatchKit App.app */; };
-		1A1F558B1ABA1DF300990700 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1F55891ABA1DF300990700 /* Interface.storyboard */; };
-		1A1F558D1ABA1DF300990700 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1F558C1ABA1DF300990700 /* Images.xcassets */; };
-		1A1F55901ABA1DF300990700 /* OpenNow WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A1F55731ABA1DF200990700 /* OpenNow WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1A1F55991ABA25C300990700 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1F55981ABA25C300990700 /* MapKit.framework */; };
 		1A1F559B1ABB416C00990700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1F559A1ABB416C00990700 /* Main.storyboard */; };
 		1A4326E11ABC9A8A00C77CB8 /* bg_items.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4326E01ABC9A8A00C77CB8 /* bg_items.png */; };
+		1A68D3D51ABF3FEF00DE934F /* iPhone in Resources */ = {isa = PBXBuildFile; fileRef = 1A68D3D41ABF3FEF00DE934F /* iPhone */; };
+		1A68D3D91AC43FB400DE934F /* bg_items640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A68D3D81AC43FB400DE934F /* bg_items640x960.png */; };
 		1A78EC341AAF7EDD00F5FE1E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A78EC331AAF7EDD00F5FE1E /* MapViewController.swift */; };
 		1A78ECAD1AB20B1500F5FE1E /* ArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A78ECAC1AB20B1500F5FE1E /* ArrowButton.swift */; };
 		1A7A54531AAF665C002A471A /* FourSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7A54521AAF665C002A471A /* FourSquare.swift */; };
@@ -37,35 +30,7 @@
 			remoteGlobalIDString = 1A08136F1AAE8507000253E6;
 			remoteInfo = OpenNow;
 		};
-		1A1F55841ABA1DF300990700 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1A0813681AAE8507000253E6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1A1F55811ABA1DF300990700;
-			remoteInfo = "OpenNow WatchKit App";
-		};
-		1A1F558E1ABA1DF300990700 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1A0813681AAE8507000253E6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1A1F55721ABA1DF200990700;
-			remoteInfo = "OpenNow WatchKit Extension";
-		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		1A1F55971ABA1DF300990700 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				1A1F55901ABA1DF300990700 /* OpenNow WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1A0813701AAE8507000253E6 /* OpenNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,20 +43,10 @@
 		1A08138B1AAE8507000253E6 /* OpenNowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenNowTests.swift; sourceTree = "<group>"; };
 		1A0813951AAE91EF000253E6 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		1A1A54EF1ABCB55F00DDE152 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		1A1F55731ABA1DF200990700 /* OpenNow WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OpenNow WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A1F55761ABA1DF200990700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A1F55771ABA1DF200990700 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		1A1F55781ABA1DF200990700 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		1A1F557A1ABA1DF200990700 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		1A1F557C1ABA1DF200990700 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
-		1A1F557E1ABA1DF200990700 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1A1F55821ABA1DF300990700 /* OpenNow WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenNow WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A1F55881ABA1DF300990700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A1F558A1ABA1DF300990700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		1A1F558C1ABA1DF300990700 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1A1F55981ABA25C300990700 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1A1F559A1ABB416C00990700 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1A4326E01ABC9A8A00C77CB8 /* bg_items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_items.png; sourceTree = "<group>"; };
+		1A68D3D41ABF3FEF00DE934F /* iPhone */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iPhone; sourceTree = "<group>"; };
+		1A68D3D81AC43FB400DE934F /* bg_items640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_items640x960.png; sourceTree = "<group>"; };
 		1A78EC331AAF7EDD00F5FE1E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		1A78ECAC1AB20B1500F5FE1E /* ArrowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowButton.swift; sourceTree = "<group>"; };
 		1A7A54521AAF665C002A471A /* FourSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourSquare.swift; sourceTree = "<group>"; };
@@ -102,18 +57,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A1F55991ABA25C300990700 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1A0813821AAE8507000253E6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1A1F55701ABA1DF200990700 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -126,11 +73,8 @@
 		1A0813671AAE8507000253E6 = {
 			isa = PBXGroup;
 			children = (
-				1A1F55981ABA25C300990700 /* MapKit.framework */,
 				1A0813721AAE8507000253E6 /* OpenNow */,
 				1A0813881AAE8507000253E6 /* OpenNowTests */,
-				1A1F55741ABA1DF200990700 /* OpenNow WatchKit Extension */,
-				1A1F55861ABA1DF300990700 /* OpenNow WatchKit App */,
 				1A0813711AAE8507000253E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -140,8 +84,6 @@
 			children = (
 				1A0813701AAE8507000253E6 /* OpenNow.app */,
 				1A0813851AAE8507000253E6 /* OpenNowTests.xctest */,
-				1A1F55731ABA1DF200990700 /* OpenNow WatchKit Extension.appex */,
-				1A1F55821ABA1DF300990700 /* OpenNow WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,6 +99,8 @@
 				1A7A54521AAF665C002A471A /* FourSquare.swift */,
 				1A1F559A1ABB416C00990700 /* Main.storyboard */,
 				1A08137C1AAE8507000253E6 /* Images.xcassets */,
+				1A68D3D81AC43FB400DE934F /* bg_items640x960.png */,
+				1A68D3D41ABF3FEF00DE934F /* iPhone */,
 				1A4326E01ABC9A8A00C77CB8 /* bg_items.png */,
 				1A08137E1AAE8507000253E6 /* LaunchScreen.xib */,
 				1A0813731AAE8507000253E6 /* Supporting Files */,
@@ -189,45 +133,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1A1F55741ABA1DF200990700 /* OpenNow WatchKit Extension */ = {
-			isa = PBXGroup;
-			children = (
-				1A1F55781ABA1DF200990700 /* InterfaceController.swift */,
-				1A1F557A1ABA1DF200990700 /* NotificationController.swift */,
-				1A1F557C1ABA1DF200990700 /* GlanceController.swift */,
-				1A1F557E1ABA1DF200990700 /* Images.xcassets */,
-				1A1F55751ABA1DF200990700 /* Supporting Files */,
-			);
-			path = "OpenNow WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		1A1F55751ABA1DF200990700 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1A1F55761ABA1DF200990700 /* Info.plist */,
-				1A1F55771ABA1DF200990700 /* PushNotificationPayload.apns */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1A1F55861ABA1DF300990700 /* OpenNow WatchKit App */ = {
-			isa = PBXGroup;
-			children = (
-				1A1F55891ABA1DF300990700 /* Interface.storyboard */,
-				1A1F558C1ABA1DF300990700 /* Images.xcassets */,
-				1A1F55871ABA1DF300990700 /* Supporting Files */,
-			);
-			path = "OpenNow WatchKit App";
-			sourceTree = "<group>";
-		};
-		1A1F55871ABA1DF300990700 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1A1F55881ABA1DF300990700 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,12 +143,10 @@
 				1A08136C1AAE8507000253E6 /* Sources */,
 				1A08136D1AAE8507000253E6 /* Frameworks */,
 				1A08136E1AAE8507000253E6 /* Resources */,
-				1A1F55971ABA1DF300990700 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1A1F558F1ABA1DF300990700 /* PBXTargetDependency */,
 			);
 			name = OpenNow;
 			productName = OpenNow;
@@ -268,39 +171,6 @@
 			productReference = 1A0813851AAE8507000253E6 /* OpenNowTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1A1F55721ABA1DF200990700 /* OpenNow WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1A1F55941ABA1DF300990700 /* Build configuration list for PBXNativeTarget "OpenNow WatchKit Extension" */;
-			buildPhases = (
-				1A1F556F1ABA1DF200990700 /* Sources */,
-				1A1F55701ABA1DF200990700 /* Frameworks */,
-				1A1F55711ABA1DF200990700 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1A1F55851ABA1DF300990700 /* PBXTargetDependency */,
-			);
-			name = "OpenNow WatchKit Extension";
-			productName = "OpenNow WatchKit Extension";
-			productReference = 1A1F55731ABA1DF200990700 /* OpenNow WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit-extension";
-		};
-		1A1F55811ABA1DF300990700 /* OpenNow WatchKit App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1A1F55911ABA1DF300990700 /* Build configuration list for PBXNativeTarget "OpenNow WatchKit App" */;
-			buildPhases = (
-				1A1F55801ABA1DF300990700 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "OpenNow WatchKit App";
-			productName = "OpenNow WatchKit App";
-			productReference = 1A1F55821ABA1DF300990700 /* OpenNow WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -312,21 +182,16 @@
 				TargetAttributes = {
 					1A08136F1AAE8507000253E6 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = E7CJR6LRFZ;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
 					1A0813841AAE8507000253E6 = {
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = 1A08136F1AAE8507000253E6;
-					};
-					1A1F55721ABA1DF200990700 = {
-						CreatedOnToolsVersion = 6.2;
-					};
-					1A1F55811ABA1DF300990700 = {
-						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -345,8 +210,6 @@
 			targets = (
 				1A08136F1AAE8507000253E6 /* OpenNow */,
 				1A0813841AAE8507000253E6 /* OpenNowTests */,
-				1A1F55721ABA1DF200990700 /* OpenNow WatchKit Extension */,
-				1A1F55811ABA1DF300990700 /* OpenNow WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -356,6 +219,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A68D3D51ABF3FEF00DE934F /* iPhone in Resources */,
+				1A68D3D91AC43FB400DE934F /* bg_items640x960.png in Resources */,
 				1A1F559B1ABB416C00990700 /* Main.storyboard in Resources */,
 				1A4326E11ABC9A8A00C77CB8 /* bg_items.png in Resources */,
 				1A0813801AAE8507000253E6 /* LaunchScreen.xib in Resources */,
@@ -367,24 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1A1F55711ABA1DF200990700 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1A1F557F1ABA1DF200990700 /* Images.xcassets in Resources */,
-				1A1F55831ABA1DF300990700 /* OpenNow WatchKit App.app in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1A1F55801ABA1DF300990700 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1A1F558B1ABA1DF300990700 /* Interface.storyboard in Resources */,
-				1A1F558D1ABA1DF300990700 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,16 +259,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A1F556F1ABA1DF200990700 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1A1F557B1ABA1DF200990700 /* NotificationController.swift in Sources */,
-				1A1F55791ABA1DF200990700 /* InterfaceController.swift in Sources */,
-				1A1F557D1ABA1DF200990700 /* GlanceController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -429,16 +266,6 @@
 			isa = PBXTargetDependency;
 			target = 1A08136F1AAE8507000253E6 /* OpenNow */;
 			targetProxy = 1A0813861AAE8507000253E6 /* PBXContainerItemProxy */;
-		};
-		1A1F55851ABA1DF300990700 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1A1F55811ABA1DF300990700 /* OpenNow WatchKit App */;
-			targetProxy = 1A1F55841ABA1DF300990700 /* PBXContainerItemProxy */;
-		};
-		1A1F558F1ABA1DF300990700 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1A1F55721ABA1DF200990700 /* OpenNow WatchKit Extension */;
-			targetProxy = 1A1F558E1ABA1DF300990700 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -449,14 +276,6 @@
 				1A08137F1AAE8507000253E6 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		1A1F55891ABA1DF300990700 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A1F558A1ABA1DF300990700 /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -543,8 +362,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OpenNow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -554,8 +375,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OpenNow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -595,66 +418,6 @@
 			};
 			name = Release;
 		};
-		1A1F55921ABA1DF300990700 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				IBSC_MODULE = OpenNow_WatchKit_Extension;
-				INFOPLIST_FILE = "OpenNow WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
-			};
-			name = Debug;
-		};
-		1A1F55931ABA1DF300990700 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COPY_PHASE_STRIP = NO;
-				IBSC_MODULE = OpenNow_WatchKit_Extension;
-				INFOPLIST_FILE = "OpenNow WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
-			};
-			name = Release;
-		};
-		1A1F55951ABA1DF300990700 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "OpenNow WatchKit Extension/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		1A1F55961ABA1DF300990700 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = "OpenNow WatchKit Extension/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -681,24 +444,6 @@
 			buildConfigurations = (
 				1A0813931AAE8507000253E6 /* Debug */,
 				1A0813941AAE8507000253E6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1A1F55911ABA1DF300990700 /* Build configuration list for PBXNativeTarget "OpenNow WatchKit App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1A1F55921ABA1DF300990700 /* Debug */,
-				1A1F55931ABA1DF300990700 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1A1F55941ABA1DF300990700 /* Build configuration list for PBXNativeTarget "OpenNow WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1A1F55951ABA1DF300990700 /* Debug */,
-				1A1F55961ABA1DF300990700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
