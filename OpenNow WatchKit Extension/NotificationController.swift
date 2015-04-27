@@ -2,7 +2,7 @@
 //  NotificationController.swift
 //  OpenNow WatchKit Extension
 //
-//  Created by andrew Mcdonald on 3/18/15.
+//  Created by andrew Mcdonald on 4/17/15.
 //  Copyright (c) 2015 Andrew McDonald. All rights reserved.
 //
 

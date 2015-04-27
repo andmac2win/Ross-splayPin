@@ -7,21 +7,21 @@
 		<key>Glance - OpenNow WatchKit App.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
 		<key>Notification - OpenNow WatchKit App.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
 		<key>OpenNow WatchKit App.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
@@ -44,6 +44,11 @@
 			<true/>
 		</dict>
 		<key>1A1F55811ABA1DF300990700</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1A8BF15F1AE16D4900DF50EA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

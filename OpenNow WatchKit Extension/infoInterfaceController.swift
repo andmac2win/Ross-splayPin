@@ -1,6 +1,6 @@
 //
-//  InterfaceController.swift
-//  OpenNow WatchKit Extension
+//  infoInterfaceController.swift
+//  OpenNow
 //
 //  Created by andrew Mcdonald on 4/17/15.
 //  Copyright (c) 2015 Andrew McDonald. All rights reserved.
@@ -8,13 +8,10 @@
 
 import WatchKit
 import Foundation
-import MapKit // added this
 
 
-class InterfaceController: WKInterfaceController {
+class infoInterfaceController: WKInterfaceController {
 
-    @IBOutlet weak var watchMapView: WKInterfaceMap!
-    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
